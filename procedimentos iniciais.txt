@@ -1,0 +1,31 @@
+baixar{
+git
+}
+
+configurar git{
+git config --global user.name 'usuario'
+git config --global user.email 'email'
+}
+
+criar novo projeto{
+criar repositório no github; git clone url;
+abrir projeto no vscode; autosave
+}
+
+salvar no github{
+git add (nome do arquivo)ou (.)para salvar tudo
+git commit -m 'descrição do save'
+git push -u origin "branch exemplo main, master"
+   (VSCODE) ctrl+s; source control, add; escrever commit;
+push no "V"
+}
+
+arquivo para github{
+cd destino/
+git init     para iniciar controle de verção do arquivo
+git add.
+git commit -m 'commit inicial'
+criar repositório no github
+git remote add origin url
+git push -u origin "branch exemplo main, master"
+}
