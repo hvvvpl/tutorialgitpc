@@ -21,7 +21,7 @@ salvar no github{
 }
 
 arquivo para github{
-  cd destino/
+  cd destino/  ou abrir bash na pasta
   git init     para iniciar controle de verção do arquivo
   git add.
   git commit -m 'commit inicial'
@@ -44,4 +44,12 @@ branch secundaria para main{
 
 atualizar codigo do pc pelo git{
    git pull
+}
+
+mudar entre as versões do código{
+  git reset --hard id da versão
+}
+
+ignorar arquivo ao enviar ao codigo final{
+  touch .gitignore
 }
